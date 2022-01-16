@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//routes update
 
 Route::get('/', function () {
     return view('hotels.welcome');
