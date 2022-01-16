@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
 
+    //controller update now
+
     public function __construct(){
 
         $this->middleware('admin');
